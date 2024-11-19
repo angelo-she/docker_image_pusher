@@ -4,6 +4,6 @@
 #xhofe/alist:latest
 #redis
 #mysql
-jira:9.12.13
+haxqer/jira:9.12.13
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
