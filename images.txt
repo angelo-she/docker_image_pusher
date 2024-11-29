@@ -22,6 +22,7 @@
 #docker.io/bitnami/kafka:3.4.0-debian-11-r6
 #busybox:latest
 #docker.io/bitnami/os-shell:11-debian-11-r91
-louislam/uptime-kuma:1.23.13
+#louislam/uptime-kuma:1.23.13
+leolee32/kubernetes-library:kubernetes-zookeeper1.0-3.4.10
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
