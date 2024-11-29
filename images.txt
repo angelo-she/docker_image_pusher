@@ -23,6 +23,7 @@
 #busybox:latest
 #docker.io/bitnami/os-shell:11-debian-11-r91
 #louislam/uptime-kuma:1.23.13
-leolee32/kubernetes-library:kubernetes-zookeeper1.0-3.4.10
+#leolee32/kubernetes-library:kubernetes-zookeeper1.0-3.4.10
+kubesphere/ks-jenkins:v3.2.0-2.249.1
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
