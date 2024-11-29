@@ -22,6 +22,6 @@
 #docker.io/bitnami/kafka:3.4.0-debian-11-r6
 #busybox:latest
 #docker.io/bitnami/os-shell:11-debian-11-r91
-louislam/uptime-kuma:1.23.11
+louislam/uptime-kuma:1.23.13
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
