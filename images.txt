@@ -8,6 +8,10 @@
 #docker.io/bitnami/grafana:9.2.3-debian-11-r0
 #mysql:5.7.30
 #dushixiang/kafka-map:v1.3.3
-siruoren/dependencytrack_frontend_cn:4.10.0
+#siruoren/dependencytrack_frontend_cn:4.10.0
+docker.elastic.co/kibana/kibana-oss:6.7.0
+louislam/uptime-kuma:1.23.11
+docker.io/bitnami/os-shell:11-debian-11-r91
+docker.io/bitnami/sonarqube:10.2.1-debian-11-r0
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
