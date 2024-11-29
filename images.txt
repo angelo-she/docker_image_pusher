@@ -19,6 +19,8 @@
 #docker.io/bitnami/kafka:3.4.0-debian-11-r28
 #docker.io/bitnami/zookeeper:3.8.1-debian-11-r6
 #docker.io/bitnami/zookeeper:3.8.0-debian-11-r47
-docker.io/bitnami/kafka:3.4.0-debian-11-r6
+#docker.io/bitnami/kafka:3.4.0-debian-11-r6
+busybox:latest
+docker.io/bitnami/os-shell:11-debian-11-r91
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
