@@ -4,6 +4,9 @@
 #xhofe/alist:latest
 #redis
 #mysql
-haxqer/jira:9.12.13
+#haxqer/jira:9.12.13
+docker.io/bitnami/grafana:9.2.3-debian-11-r0
+mysql:5.7.30
+dushixiang/kafka-map:v1.3.3
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
