@@ -33,8 +33,9 @@
 #logstash:7.2.1
 #golang:1.20-alpine
 #dependencytrack/apiserver:4.10.1
-dependencytrack/apiserver:4.12.2
-dependencytrack/frontend:4.12.2
+#dependencytrack/apiserver:4.12.2
+#dependencytrack/frontend:4.12.2
+apache/flink-kubernetes-operator:1.10.0
 #siruoren/dependencytrack_frontend_cn:4.10.0
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
