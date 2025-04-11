@@ -33,8 +33,8 @@
 #logstash:7.2.1
 #golang:1.20-alpine
 #dependencytrack/apiserver:4.10.1
-#dependencytrack/apiserver:4.12.2
-#dependencytrack/frontend:4.12.2
+dependencytrack/apiserver:4.13.0
+dependencytrack/frontend:4.13.0
 #apache/flink-kubernetes-operator:1.10.0
 #us-central1-docker.pkg.dev/keephq/keep/keep-api:0.36.2
 #us-central1-docker.pkg.dev/keephq/keep/keep-ui:0.36.2
@@ -43,9 +43,9 @@
 #langgenius/dify-api:1.0.1
 #langgenius/dify-plugin-daemon:0.0.3-local
 #langgenius/dify-web:1.0.1
-docker.io/bitnami/redis:7.0.11-debian-11-r12
-docker.io/semitechnologies/weaviate:1.19.1
-langgenius/dify-plugin-daemon:0.0.4-local
+#docker.io/bitnami/redis:7.0.11-debian-11-r12
+#docker.io/semitechnologies/weaviate:1.19.1
+#langgenius/dify-plugin-daemon:0.0.4-local
 #siruoren/dependencytrack_frontend_cn:4.10.0
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
