@@ -33,8 +33,9 @@
 #logstash:7.2.1
 #golang:1.20-alpine
 #dependencytrack/apiserver:4.10.1
-dependencytrack/apiserver:4.13.0
-dependencytrack/frontend:4.13.0
+#dependencytrack/apiserver:4.13.0
+#dependencytrack/frontend:4.13.0
+registry
 #apache/flink-kubernetes-operator:1.10.0
 #us-central1-docker.pkg.dev/keephq/keep/keep-api:0.36.2
 #us-central1-docker.pkg.dev/keephq/keep/keep-ui:0.36.2
