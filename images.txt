@@ -67,7 +67,7 @@
 #kubesphere/coredns:1.9.3  # 失败
 #kubesphere/k8s-dns-node-cache:1.22.20
 #kubesphere/kube-controllers:v3.27.3 # 失败
-kubesphere/cni:v3.27.3
+#kubesphere/cni:v3.27.3
 kubesphere/node:v3.27.3
 kubesphere/pod2daemon-flexvol:v3.27.3
 kubesphere/typha:v3.27.3
