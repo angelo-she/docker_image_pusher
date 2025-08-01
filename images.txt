@@ -58,13 +58,13 @@
 #kubespheredev/ks-installer:v3.2.1
 #kubesphere/ks-installer:v3.4.1
 #kubesphere/metrics-server:v0.4.2
-kubesphere/nginx-ingress-controller:v1.3.1
-kubesphere/pause:3.9
-kubesphere/kube-apiserver:v1.28.8
-kubesphere/kube-controller-manager:v1.28.8
-kubesphere/kube-scheduler:v1.28.8
-kubesphere/kube-proxy:v1.28.8
-kubesphere/coredns:1.9.3
+#kubesphere/nginx-ingress-controller:v1.3.1
+#kubesphere/pause:3.9
+#kubesphere/kube-apiserver:v1.28.8
+#kubesphere/kube-controller-manager:v1.28.8
+#kubesphere/kube-scheduler:v1.28.8
+#kubesphere/kube-proxy:v1.28.8
+#kubesphere/coredns:1.9.3  # 失败
 kubesphere/k8s-dns-node-cache:1.22.20
 kubesphere/kube-controllers:v3.27.3
 kubesphere/cni:v3.27.3
