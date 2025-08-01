@@ -56,144 +56,144 @@
 #kubespheredev/ks-controller-manager:v3.2.1
 #kubespheredev/ks-controller-manager:v3.4.1
 #kubespheredev/ks-installer:v3.2.1
-kubespheredev/ks-installer:v3.4.1-alpha.1
-kubespheredev/metrics-server:v0.4.2
-kubespheredev/nginx-ingress-controller:v1.3.1
-kubespheredev/pause:3.9
-kubespheredev/kube-apiserver:v1.28.8
-kubespheredev/kube-controller-manager:v1.28.8
-kubespheredev/kube-scheduler:v1.28.8
-kubespheredev/kube-proxy:v1.28.8
-kubespheredev/coredns:1.9.3
-kubespheredev/k8s-dns-node-cache:1.22.20
-kubespheredev/kube-controllers:v3.27.3
-kubespheredev/cni:v3.27.3
-kubespheredev/node:v3.27.3
-kubespheredev/pod2daemon-flexvol:v3.27.3
-kubespheredev/typha:v3.27.3
-kubespheredev/flannel:v0.21.3
-kubespheredev/flannel-cni-plugin:v1.1.2
-kubespheredev/hybridnet:v0.8.6
-kubespheredev/multus-cni:v3.8
-kubespheredev/provisioner-localpv:3.3.0
-kubespheredev/linux-utils:3.3.0
-kubespheredev/haproxy:2.9.6-alpine
-kubespheredev/node-feature-discovery:v0.10.0
-kubespheredev//kubectl:v1.20.0
-kubespheredev/kubectl:v1.22.0
-kubespheredev/kubefed:v0.8.1
-kubespheredev/tower:v0.2.1
-kubespheredev/minio:RELEASE.2019-08-07T01-59-21Z
-kubespheredev/mc:RELEASE.2019-08-07T23-14-43Z
-kubespheredev/snapshot-controller:v4.0.0
-kubespheredev/defaultbackend-amd64:1.4
-kubespheredev/metrics-server:v0.4.2
-kubespheredev/redis:5.0.14-alpine
-kubespheredev/haproxy:2.0.25-alpine
-kubespheredev/alpine:3.14
-kubespheredev/openldap:1.3.0
-kubespheredev/netshoot:v1.0
-kubespheredev/cloudcore:v1.13.0
-kubespheredev/iptables-manager:v1.13.0
-kubespheredev/edgeservice:v0.3.0
-kubespheredev/gatekeeper:v3.5.2
-kubespheredev/openpitrix-jobs:v3.3.2
-kubespheredev/devops-apiserver:ks-v3.4.1
-kubespheredev/devops-controller:ks-v3.4.1
-kubespheredev/devops-tools:ks-v3.4.1
-kubespheredev/ks-jenkins:v3.4.0-2.319.3-1
-kubespheredev/inbound-agent:4.10-2
-kubespheredev/builder-base:v3.2.2
-kubespheredev/builder-nodejs:v3.2.0
-kubespheredev/builder-maven:v3.2.0
-kubespheredev/builder-maven:v3.2.1-jdk11
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-python:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.2-1.16
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.2-1.17
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.2-1.18
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-base:v3.2.2-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-nodejs:v3.2.0-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-maven:v3.2.0-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-maven:v3.2.1-jdk11-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-python:v3.2.0-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.0-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.2-1.16-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.2-1.17-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/builder-go:v3.2.2-1.18-podman
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/s2ioperator:v3.2.1
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/s2irun:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/s2i-binary:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/tomcat85-java11-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/tomcat85-java11-runtime:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/tomcat85-java8-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/tomcat85-java8-runtime:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/java-11-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/java-8-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/java-8-runtime:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/java-11-runtime:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/nodejs-8-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/nodejs-6-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/nodejs-4-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/python-36-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/python-35-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/python-34-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/python-27-centos7:v3.2.0
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/argocd:v2.3.3
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/argocd-applicationset:v0.4.1
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/dex:v2.30.2
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/redis:6.2.6-alpine
-  - registry.cn-beijing.aliyuncs.com/kubesphereio/configmap-reload:v0.7.1
-kubespheredev/prometheus:v2.39.1
-kubespheredev/prometheus-config-reloader:v0.55.1
-kubespheredev/prometheus-operator:v0.55.1
-kubespheredev/kube-rbac-proxy:v0.11.0
-kubespheredev/kube-state-metrics:v2.6.0
-kubespheredev/node-exporter:v1.3.1
-kubespheredev/alertmanager:v0.23.0
-kubespheredev/thanos:v0.31.0
-kubespheredev/grafana:8.3.3
-kubespheredev/kube-rbac-proxy:v0.11.0
-kubespheredev/notification-manager-operator:v2.3.0
-kubespheredev/notification-manager:v2.3.0
-kubespheredev/notification-tenant-sidecar:v3.2.0
-kubespheredev/elasticsearch-curator:v5.7.6
-kubespheredev/opensearch-curator:v0.0.5
-kubespheredev/elasticsearch-oss:6.8.22
-kubespheredev/opensearch:2.6.0
-kubespheredev/opensearch-dashboards:2.6.0
-kubespheredev/fluentbit-operator:v0.14.0
-kubespheredev/docker:19.03
-kubespheredev/fluent-bit:v1.9.4
-kubespheredev/log-sidecar-injector:v1.2.0
-kubespheredev/filebeat:6.7.0
-kubespheredev/kube-events-operator:v0.6.0
-kubespheredev/kube-events-exporter:v0.6.0
-kubespheredev/kube-events-ruler:v0.6.0
-kubespheredev/kube-auditing-operator:v0.2.0
-kubespheredev/kube-auditing-webhook:v0.2.0
-kubespheredev/pilot:1.14.6
-kubespheredev/proxyv2:1.14.6
-kubespheredev/jaeger-operator:1.29
-kubespheredev/jaeger-agent:1.29
-kubespheredev/jaeger-collector:1.29
-kubespheredev/jaeger-query:1.29
-kubespheredev/jaeger-es-index-cleaner:1.29
-kubespheredev/kiali-operator:v1.50.1
-kubespheredev/kiali:v1.50
-kubespheredev/busybox:1.31.1
-kubespheredev/nginx:1.14-alpine
-kubespheredev/wget:1.0
-kubespheredev/hello:plain-text
-kubespheredev/wordpress:4.8-apache
-kubespheredev/hpa-example:latest
-kubespheredev/fluentd:v1.4.2-2.0
-kubespheredev/perl:latest
-kubespheredev/examples-bookinfo-productpage-v1:1.16.2
-kubespheredev/examples-bookinfo-reviews-v1:1.16.2
-kubespheredev/examples-bookinfo-reviews-v2:1.16.2
-kubespheredev/examples-bookinfo-details-v1:1.16.2
-kubespheredev/examples-bookinfo-ratings-v1:1.16.3
-kubespheredev/scope:1.13.0
+kubesphere/ks-installer:v3.4.1
+#kubesphere/metrics-server:v0.4.2
+kubesphere/nginx-ingress-controller:v1.3.1
+kubesphere/pause:3.9
+kubesphere/kube-apiserver:v1.28.8
+kubesphere/kube-controller-manager:v1.28.8
+kubesphere/kube-scheduler:v1.28.8
+kubesphere/kube-proxy:v1.28.8
+kubesphere/coredns:1.9.3
+kubesphere/k8s-dns-node-cache:1.22.20
+kubesphere/kube-controllers:v3.27.3
+kubesphere/cni:v3.27.3
+kubesphere/node:v3.27.3
+kubesphere/pod2daemon-flexvol:v3.27.3
+kubesphere/typha:v3.27.3
+kubesphere/flannel:v0.21.3
+kubesphere/flannel-cni-plugin:v1.1.2
+kubesphere/hybridnet:v0.8.6
+kubesphere/multus-cni:v3.8
+kubesphere/provisioner-localpv:3.3.0
+kubesphere/linux-utils:3.3.0
+kubesphere/haproxy:2.9.6-alpine
+kubesphere/node-feature-discovery:v0.10.0
+kubesphere//kubectl:v1.20.0
+kubesphere/kubectl:v1.22.0
+kubesphere/kubefed:v0.8.1
+kubesphere/tower:v0.2.1
+kubesphere/minio:RELEASE.2019-08-07T01-59-21Z
+kubesphere/mc:RELEASE.2019-08-07T23-14-43Z
+kubesphere/snapshot-controller:v4.0.0
+kubesphere/defaultbackend-amd64:1.4
+kubesphere/metrics-server:v0.4.2
+kubesphere/redis:5.0.14-alpine
+kubesphere/haproxy:2.0.25-alpine
+kubesphere/alpine:3.14
+kubesphere/openldap:1.3.0
+kubesphere/netshoot:v1.0
+kubesphere/cloudcore:v1.13.0
+kubesphere/iptables-manager:v1.13.0
+kubesphere/edgeservice:v0.3.0
+kubesphere/gatekeeper:v3.5.2
+kubesphere/openpitrix-jobs:v3.3.2
+kubesphere/devops-apiserver:ks-v3.4.1
+kubesphere/devops-controller:ks-v3.4.1
+kubesphere/devops-tools:ks-v3.4.1
+kubesphere/ks-jenkins:v3.4.0-2.319.3-1
+kubesphere/inbound-agent:4.10-2
+kubesphere/builder-base:v3.2.2
+kubesphere/builder-nodejs:v3.2.0
+kubesphere/builder-maven:v3.2.0
+kubesphere/builder-maven:v3.2.1-jdk11
+kubesphere/builder-python:v3.2.0
+kubesphere/builder-go:v3.2.0
+kubesphere/builder-go:v3.2.2-1.16
+kubesphere/builder-go:v3.2.2-1.17
+kubesphere/builder-go:v3.2.2-1.18
+kubesphere/builder-base:v3.2.2-podman
+kubesphere/builder-nodejs:v3.2.0-podman
+kubesphere/builder-maven:v3.2.0-podman
+kubesphere/builder-maven:v3.2.1-jdk11-podman
+kubesphere/builder-python:v3.2.0-podman
+kubesphere/builder-go:v3.2.0-podman
+kubesphere/builder-go:v3.2.2-1.16-podman
+kubesphere/builder-go:v3.2.2-1.17-podman
+kubesphere/builder-go:v3.2.2-1.18-podman
+kubesphere/s2ioperator:v3.2.1
+kubesphere/s2irun:v3.2.0
+kubesphere/s2i-binary:v3.2.0
+kubesphere/tomcat85-java11-centos7:v3.2.0
+kubesphere/tomcat85-java11-runtime:v3.2.0
+kubesphere/tomcat85-java8-centos7:v3.2.0
+kubesphere/tomcat85-java8-runtime:v3.2.0
+kubesphere/java-11-centos7:v3.2.0
+kubesphere/java-8-centos7:v3.2.0
+kubesphere/java-8-runtime:v3.2.0
+kubesphere/java-11-runtime:v3.2.0
+kubesphere/nodejs-8-centos7:v3.2.0
+kubesphere/nodejs-6-centos7:v3.2.0
+kubesphere/nodejs-4-centos7:v3.2.0
+kubesphere/python-36-centos7:v3.2.0
+kubesphere/python-35-centos7:v3.2.0
+kubesphere/python-34-centos7:v3.2.0
+kubesphere/python-27-centos7:v3.2.0
+kubesphere/argocd:v2.3.3
+kubesphere/argocd-applicationset:v0.4.1
+kubesphere/dex:v2.30.2
+kubesphere/redis:6.2.6-alpine
+kubesphere/configmap-reload:v0.7.1
+kubesphere/prometheus:v2.39.1
+kubesphere/prometheus-config-reloader:v0.55.1
+kubesphere/prometheus-operator:v0.55.1
+kubesphere/kube-rbac-proxy:v0.11.0
+kubesphere/kube-state-metrics:v2.6.0
+kubesphere/node-exporter:v1.3.1
+kubesphere/alertmanager:v0.23.0
+kubesphere/thanos:v0.31.0
+kubesphere/grafana:8.3.3
+kubesphere/kube-rbac-proxy:v0.11.0
+kubesphere/notification-manager-operator:v2.3.0
+kubesphere/notification-manager:v2.3.0
+kubesphere/notification-tenant-sidecar:v3.2.0
+kubesphere/elasticsearch-curator:v5.7.6
+kubesphere/opensearch-curator:v0.0.5
+kubesphere/elasticsearch-oss:6.8.22
+kubesphere/opensearch:2.6.0
+kubesphere/opensearch-dashboards:2.6.0
+kubesphere/fluentbit-operator:v0.14.0
+kubesphere/docker:19.03
+kubesphere/fluent-bit:v1.9.4
+kubesphere/log-sidecar-injector:v1.2.0
+kubesphere/filebeat:6.7.0
+kubesphere/kube-events-operator:v0.6.0
+kubesphere/kube-events-exporter:v0.6.0
+kubesphere/kube-events-ruler:v0.6.0
+kubesphere/kube-auditing-operator:v0.2.0
+kubesphere/kube-auditing-webhook:v0.2.0
+kubesphere/pilot:1.14.6
+kubesphere/proxyv2:1.14.6
+kubesphere/jaeger-operator:1.29
+kubesphere/jaeger-agent:1.29
+kubesphere/jaeger-collector:1.29
+kubesphere/jaeger-query:1.29
+kubesphere/jaeger-es-index-cleaner:1.29
+kubesphere/kiali-operator:v1.50.1
+kubesphere/kiali:v1.50
+kubesphere/busybox:1.31.1
+kubesphere/nginx:1.14-alpine
+kubesphere/wget:1.0
+kubesphere/hello:plain-text
+kubesphere/wordpress:4.8-apache
+kubesphere/hpa-example:latest
+kubesphere/fluentd:v1.4.2-2.0
+kubesphere/perl:latest
+kubesphere/examples-bookinfo-productpage-v1:1.16.2
+kubesphere/examples-bookinfo-reviews-v1:1.16.2
+kubesphere/examples-bookinfo-reviews-v2:1.16.2
+kubesphere/examples-bookinfo-details-v1:1.16.2
+kubesphere/examples-bookinfo-ratings-v1:1.16.3
+kubesphere/scope:1.13.0
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
