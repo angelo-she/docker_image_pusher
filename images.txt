@@ -56,7 +56,7 @@
 #kubespheredev/ks-controller-manager:v3.2.1
 #kubespheredev/ks-controller-manager:v3.4.1
 #kubespheredev/ks-installer:v3.2.1
-kubesphere/ks-installer:v3.4.1
+#kubesphere/ks-installer:v3.4.1
 #kubesphere/metrics-server:v0.4.2
 kubesphere/nginx-ingress-controller:v1.3.1
 kubesphere/pause:3.9
