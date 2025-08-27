@@ -29,8 +29,9 @@
 #kubesphere/kiali-operator:v1.38.1
 #kubesphere/kiali:v1.38
 #kubesphere/elasticsearch-curator:v5.7.6
-docker.io/vesoft/nebula-metad:nightly
-docker.io/vesoft/nebula-storaged:nightly
-docker.io/vesoft/nebula-graphd:nightly
-docker.io/vesoft/nebula-console:nightly
-vesoft/nebula-graph-studio:v3.10.0
+#docker.io/vesoft/nebula-metad:nightly
+#docker.io/vesoft/nebula-storaged:nightly
+#docker.io/vesoft/nebula-graphd:nightly
+#docker.io/vesoft/nebula-console:nightly
+#vesoft/nebula-graph-studio:v3.10.0
+kafbat/kafka-ui:latest
