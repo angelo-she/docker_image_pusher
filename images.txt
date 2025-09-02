@@ -34,4 +34,5 @@
 #docker.io/vesoft/nebula-graphd:nightly
 #docker.io/vesoft/nebula-console:nightly
 #vesoft/nebula-graph-studio:v3.10.0
-kafbat/kafka-ui:latest
+#kafbat/kafka-ui:latest
+louislam/uptime-kuma:1.23.16
