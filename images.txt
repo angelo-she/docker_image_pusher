@@ -35,4 +35,5 @@
 #docker.io/vesoft/nebula-console:nightly
 #vesoft/nebula-graph-studio:v3.10.0
 #kafbat/kafka-ui:latest
-louislam/uptime-kuma:1.23.16
+#louislam/uptime-kuma:1.23.16
+redis:7.2.11-alpine
