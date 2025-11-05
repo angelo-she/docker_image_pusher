@@ -36,6 +36,7 @@
 #vesoft/nebula-graph-studio:v3.10.0
 #kafbat/kafka-ui:latest
 #louislam/uptime-kuma:1.23.16
-learun/ks-installer:v3.2.2
-pixiake/ks-installer:v3.4.1
-redis:7.2.11-alpine
+#learun/ks-installer:v3.2.2
+#pixiake/ks-installer:v3.4.1
+#redis:7.2.11-alpine
+kubesphere/notification-manager:v2.2.0
