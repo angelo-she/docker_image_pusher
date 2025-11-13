@@ -42,4 +42,5 @@
 #kubesphere/notification-manager:v2.2.0
 #kubesphere/notification-manager-operator:v2.2.0
 #kubesphere/kube-rbac-proxy:v0.11.0
-mysql:8.0.28
+#mysql:8.0.28
+postgres:12.12
