@@ -44,5 +44,6 @@
 #kubesphere/kube-rbac-proxy:v0.11.0
 #mysql:8.0.28
 #postgres:12.12
-centos:7.9.2009
-centos:8.1.1911
+#centos:7.9.2009
+#centos:8.1.1911
+python:3.11-slim
