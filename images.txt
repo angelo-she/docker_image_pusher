@@ -46,4 +46,5 @@
 #postgres:12.12
 #centos:7.9.2009
 #centos:8.1.1911
-python:3.11-slim
+#python:3.11-slim
+golang:1.23-alpine
