@@ -48,4 +48,5 @@
 #centos:8.1.1911
 #python:3.11-slim
 #golang:1.23-alpine
-jiulingyun803/openclaw-cn
+#jiulingyun803/openclaw-cn
+openclaw/openclaw-cn:2026-latest
