@@ -49,4 +49,5 @@
 #python:3.11-slim
 #golang:1.23-alpine
 #jiulingyun803/openclaw-cn
-openclaw/openclaw-cn:2026-latest
+#openclaw/openclaw-cn:2026-latest
+nousresearch/hermes-agent:latest
