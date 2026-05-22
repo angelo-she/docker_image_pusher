@@ -50,4 +50,5 @@
 #golang:1.23-alpine
 #jiulingyun803/openclaw-cn
 #openclaw/openclaw-cn:2026-latest
-nousresearch/hermes-agent:latest
+#nousresearch/hermes-agent:latest
+testcontainers/ryuk:0.6.0
