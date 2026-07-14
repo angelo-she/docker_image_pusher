@@ -52,4 +52,5 @@
 #openclaw/openclaw-cn:2026-latest
 #nousresearch/hermes-agent:latest
 #testcontainers/ryuk:0.6.0
-postgres:14.8
+#postgres:14.8
+nousresearch/hermes-agent:v2026.7.7.2
