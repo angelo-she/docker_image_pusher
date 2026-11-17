@@ -55,4 +55,5 @@
 #postgres:14.8
 #nousresearch/hermes-agent:v2026.7.7.2
 #flashcatcloud/nightingale:6.6.1
-lissy93/web-check:2.2.5
+#lissy93/web-check:2.2.5
+kafbat/kafka-ui:v1.5.0
